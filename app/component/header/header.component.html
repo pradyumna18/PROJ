@@ -1,0 +1,17 @@
+<header>
+    <div class="navbar bg-primary shadow-sm">
+        <div class="navbar-brand">
+            <i class="fa fa-truck" aria-hidden="true">
+                <strong>TaddyKart</strong>
+            </i>
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="Search Products......">
+            </div>
+            <span class="fa fa-search search-icon"></span>
+        </div>
+        <button routerLink="cart" class="btn btn-primary bt">
+            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+    </div>
+</header>

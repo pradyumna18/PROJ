@@ -1,0 +1,40 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    text-align: center;
+    display: flex;
+}
+strong,i{
+    color:#fff;
+    font-size: 30px;
+    padding:0 20px 0;
+}
+strong{
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+.form-group input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 150px;
+    width:500px;
+    padding: 4px 40px;
+}
+.search-icon{
+    position: relative;
+    z-index: 10;
+    right: 5%;
+    top:9px;
+    color:blue;
+}
+.bt i{
+    font-size: 40px;
+}
+.num{
+    font-size: 10px;
+}
